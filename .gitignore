@@ -1,0 +1,41 @@
+# dependencies
+node_modules/
+oracle/node_modules/
+
+
+# next.js
+.next/
+out/
+
+# environment variables
+.env
+.env.local
+.env*.local
+oracle/.env
+
+# lock files
+package-lock.json
+oracle/package-lock.json
+
+# debug
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# vercel
+.vercel
+oracle/.env
+oracle/stockfish/
+oracle/*.db
+oracle/*.db-shm
+oracle/*.db-wal
